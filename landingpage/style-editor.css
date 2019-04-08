@@ -1,0 +1,42 @@
+.wp-block {
+    max-width: 1440px;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2.tour_categories_heading {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 0 5.625rem 0;
+    font-weight: 300;
+    color: #939FA4;
+}
+
+h2.tour_categories_heading strong {
+    color: #24282A;
+    font-weight: 700;
+}
+
+.wp-block-columns.tour_categories.has-2-columns .wp-block:nth-of-type(1){
+    flex-basis: 66% !important;
+}
+
+.wp-block-columns.tour_categories.has-2-columns .wp-block:nth-of-type(2){
+    flex-basis: 33% !important;
+}
+
+.wp-block-button__link {
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background: #38A4DC;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding: 0.625rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.wp-block-button__link:nth-of-type(2) {
+    margin: 0;
+    box-shadow: none;
+}
